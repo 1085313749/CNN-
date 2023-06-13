@@ -1,6 +1,22 @@
-# 使用方法
-运行RunThis.py即可生成可视化界面（使用命令行或者编译器）
-在TestImage文件夹中导入图片或批量预测
+## 运行方法：
+要使用可视化界面，运行main.py即可
+点击“导入图片”进入选择图片的界面后，进入image文件夹，可随意选择文件夹中的图片进行导入。
 
-# 训练模型
-运行ModelTrain.py，根目录下会生成.pth文件，这是模型权重（建议使用GPU，运行时间为半小时）
+## 训练方法：
+train.py是训练代码，需要单独运行。如果没有CUDA的话建议使用google云硬盘的GPU来跑
+
+## 已开源到Github
+
+## 版本依赖：
+tensorboard                  2.12.3
+tensorboard-data-server      0.7.0
+tensorflow                   2.12.0
+tensorflow-estimator         2.12.0
+tensorflow-intel             2.12.0
+tensorflow-io-gcs-filesystem 0.31.0
+termcolor                    2.3.0
+threadpoolctl                3.1.0
+toml                         0.10.2
+torch                        1.10.2
+torchaudio                   0.10.2
+torchvision                  0.11.3
